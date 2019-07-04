@@ -22,15 +22,21 @@ class Header extends Component {
               <ItemLi className="left search">
                 <div>
                   <Search></Search>
+                  <i className="iconfont">&#xe61b;</i>
                 </div>
               </ItemLi>
               <ItemLi className="right">登录</ItemLi>
-              <ItemLi className="right">Aa</ItemLi>
+              <ItemLi className="right">
+                <i className="iconfont">&#xe636;</i> {/*Aa*/}
+              </ItemLi>
             </ul>
           </Nav>
           <Addition>
             <Button>注册</Button>
-            <Button className="write">写文章</Button>
+            <Button className="write">
+              <i className="iconfont">&#xe728;</i>
+              <span>写文章</span>
+            </Button>
           </Addition>
         </HeaderWrapper>
       </header>

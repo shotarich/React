@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import logoPic from '../../static/logo.png';
+import logoPic from '../../static/imgs/header/logo.png';
 
 export const HeaderWrapper = styled.div`
   position: relative;
@@ -56,10 +56,6 @@ export const Search = styled.input.attrs({
 	box-sizing: border-box;
   border-radius: 40px;
   background: #eee;
-
-  &::after{
-    content: "\\E618"
-  }
 `;
 
 export const Addition = styled.div`
